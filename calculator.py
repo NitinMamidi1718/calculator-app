@@ -1,3 +1,12 @@
+def factorial(n):
+    if n < 0:
+        return "Factorial is not defined for negative numbers"
+
+    result = 1
+    for i in range(1, n + 1):
+        result *= i
+
+    return result
 def cube(a):
     return a * a * a
 def add(a, b):
@@ -32,3 +41,4 @@ print("Addition:", add(num1, num2))
 print("Subtraction:", subtract(num1, num2))
 print("Multiplication:", multiply(num1, num2))
 print("Division:", divide(num1, num2))
+print("Factorial:", factorial(int(num1)))
