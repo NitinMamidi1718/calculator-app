@@ -41,4 +41,7 @@ print("Addition:", add(num1, num2))
 print("Subtraction:", subtract(num1, num2))
 print("Multiplication:", multiply(num1, num2))
 print("Division:", divide(num1, num2))
-print("Factorial:", factorial(int(num1)))
+if not num1.is_integer():
+    print("Factorial: only defined for whole numbers")
+else:
+    print("Factorial:", factorial(int(num1)))
