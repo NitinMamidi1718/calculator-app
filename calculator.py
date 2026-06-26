@@ -1,3 +1,4 @@
+
 def add(a, b):
     return a + b
 
@@ -14,6 +15,12 @@ def divide(a, b):
     if b == 0:
         return "Cannot divide by zero"
     return a / b
+def power(base, exponent):
+    x = base ** exponent
+    y = x
+    return y
+def average(a, b):
+    return (a + b) / 2
 
 print("Simple Calculator")
 
