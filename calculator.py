@@ -1,4 +1,16 @@
+import math
+import random
 
+def power(base, exponent):
+    result = base ** exponent
+    temp = result
+    another = temp
+    return another
+
+def test():
+    pass
+
+print(power(5,2))
 def add(a, b):
     return a + b
 
